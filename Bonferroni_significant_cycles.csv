@@ -1,0 +1,6 @@
+,patient,f,type,multi_comparisons,p_omni,p_random_dist,si_val,circ_mean
+0,e597baa8-599a-4186-b34c-f44162857ad5,1092,multiday,0.01,0.002,0.37,0.14,2.9
+1,e597baa8-599a-4186-b34c-f44162857ad5,204,weekly,0.01,4.1e-17,0.029,0.44,2.6
+2,e597baa8-599a-4186-b34c-f44162857ad5,2712,multiday,0.01,3.3e-06,0.0025,0.16,4.7
+3,e597baa8-599a-4186-b34c-f44162857ad5,24,circadian,0.01,6.6e-15,0.014,0.4,1.8
+4,e597baa8-599a-4186-b34c-f44162857ad5,312,multiday,0.01,6e-06,0.45,0.23,2.5
