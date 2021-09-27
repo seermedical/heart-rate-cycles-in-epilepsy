@@ -8,8 +8,9 @@ from utils import *
 
 # open patient HR and seizure data
 f = open('used_data.pckl', 'rb')
-used_data = pickle.load(f)
+used_data = pd.read_pickle(f)
 f.close()
+
 
 # placeholder variables
 compliant_patients = {}
@@ -22,7 +23,7 @@ heart_rate_cycles = pd.DataFrame(columns = ['patient', 'f', 'type'])
 mother = cwt.Morlet(6)
 order = 2; fs=60
 
-for patient in used_data.keys():
+for patient in used_data:
 
     [data, seizures] = used_data[patient] # seizure variable in control patients is empty dataframe
     df = data.copy()
